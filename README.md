@@ -59,11 +59,14 @@ schedule_report(60, 'C:/example_folder', 'C:/report_folder', days_to_keep=7)
 ```
 
 ## Logging
+
 The script logs activity in `file_size_report.log`, including:
-    File paths and their sizes.
-    Total folder size.
-    Any errors encountered (e.g., permissions issues).
-    Old report deletions.
+
+- File paths and their sizes
+- Total folder size
+- Any errors encountered (e.g., permissions issues)
+- Old report deletions
+
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
