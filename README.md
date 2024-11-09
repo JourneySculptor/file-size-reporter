@@ -48,12 +48,14 @@ A Python tool to generate periodic file size reports for a specified folder. Thi
 
 ## Example
 
-```python
-# Example configuration in file_size_reporter.py
+Here’s an example configuration in `file_size_reporter.py`:
 
+```python
+# Example configuration
 # Generate a report every 60 seconds for 'C:/example_folder' and save reports to 'C:/report_folder'
 # Retain old reports for 7 days
 schedule_report(60, 'C:/example_folder', 'C:/report_folder', days_to_keep=7)
+
 ```
 
 ## Logging
