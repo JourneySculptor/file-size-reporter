@@ -2,6 +2,17 @@
 
 A Python tool to generate periodic file size reports for a specified folder. This tool logs file sizes in a CSV format, allows customizable report locations, and automatically deletes old reports to save disk space.
 
+## Project Status
+This project is part of my learning journey in Python development. As I continue to study and improve my skills, I will be gradually enhancing the functionality, readability, and overall structure of the code. Suggestions and constructive feedback are welcome.
+
+### Planned Improvements
+- **Enhanced Error Handling**: Adding more comprehensive error checks and handling to improve robustness.
+- **Optimized Report Generation**: Exploring ways to improve report generation performance for larger directories.
+- **Code Refactoring**: Cleaning up code structure for better readability and maintainability as I learn best practices.
+
+Thank you for your patience and understanding as I continue to grow my skills!
+
+
 ## Features
 - **Periodic File Size Reports**: Generates a CSV report of file sizes in the target folder at specified intervals.
 - **Customizable Report Location**: Allows users to specify a folder where reports are saved.
